@@ -21,7 +21,8 @@ const compare = (a, b) => {
 };
 console.log(compare(numberOne, numberTwo));
 
-// create an array called list which will contian 5 items(apple, orange, pear, strawberry, kiwi);
+// create an array called list which will contain 5 items(apple, orange, pear, strawberry, kiwi);
+const list = ["apple", "orange", "pear", "strawberry", "kiwi"];
 
 // loop through the list array and print in console each item.
 
