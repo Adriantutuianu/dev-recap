@@ -6,8 +6,20 @@ console.log(surname);
 let isActive = true;
 
 // create 2 variables(numberOne and numberTwo) and assign numbers as value. Create a function that will compare 2 numbers.
-// Will have to return the following message: "a" is bigger that "b". Replace a and b with actual numbers in the message.
+// Will have to return the following message: "a" is bigger than "b". Replace a and b with actual numbers in the message.
 // Call the function and pass numberOne and numberTwo as arguments.
+
+const numberOne = 33;
+const numberTwo = 12;
+
+const compare = (a, b) => {
+  if (a > b) {
+    return `${a} is bigger than ${b}`;
+  } else {
+    return `${b} is bigger than ${a}`;
+  }
+};
+console.log(compare(numberOne, numberTwo));
 
 // create an array called list which will contian 5 items(apple, orange, pear, strawberry, kiwi);
 
