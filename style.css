@@ -17,7 +17,11 @@
 .heading-4 {
   text-align: center;
 }
+
 /* create a grid layout with 3 columns */
+.grid-container {
+  display: grid;
+}
 
 /* center the text that is inside of the abobe grid using flex */
 
