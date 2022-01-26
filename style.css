@@ -24,5 +24,8 @@
 }
 
 /* center the text that is inside of the abobe grid using flex */
-
+.grid-container .grid-item {
+  display: flex;
+  justify-content: center;
+}
 /* make the grid responsive and for tablet change the above grid to 2 columns and for mobile to a single column. */
