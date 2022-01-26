@@ -25,8 +25,14 @@ console.log(compare(numberOne, numberTwo));
 const list = ["apple", "orange", "pear", "strawberry", "kiwi"];
 
 // loop through the list array and print in console each item.
+list.forEach((item) => console.log(item));
 
-// create an object which will contain a brand, color and age. This object will be stored as a variable called car.
+// loop through the list array and print in console all items except "pear".
+list.forEach((item) => {
+  if (item !== "pear") {
+    console.log(item);
+  }
+});
 
 // create and array of objects called persons which will contain 5 persons details
 // (name(string),surname(string),age(number), chlidren(number),childrensName(array of strings))
