@@ -32,6 +32,18 @@
   padding: 10px;
 }
 /* make the grid responsive and for tablet change the above grid to 2 columns and for mobile to a single column. */
+/* for tablet */
+@media only screen and (max-width: 992px) {
+  .grid-container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+/* for mobile */
+@media only screen and (max-width: 600px) {
+  .grid-container {
+    grid-template-columns: 1fr;
+  }
+}
 
 /* cell 6 inside grid with red background */
 .grid-container .grid-item--6 {
