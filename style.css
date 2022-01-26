@@ -18,14 +18,17 @@
   text-align: center;
 }
 
-/* create a grid layout with 3 columns */
+/* create a grid layout with 3 columns and 3 rows*/
 .grid-container {
   display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 /* center the text that is inside of the abobe grid using flex */
 .grid-container .grid-item {
   display: flex;
   justify-content: center;
+  border: 1px solid black;
+  padding: 10px;
 }
 /* make the grid responsive and for tablet change the above grid to 2 columns and for mobile to a single column. */
