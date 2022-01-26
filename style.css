@@ -32,3 +32,8 @@
   padding: 10px;
 }
 /* make the grid responsive and for tablet change the above grid to 2 columns and for mobile to a single column. */
+
+/* cell 6 inside grid with red background */
+.grid-container .grid-item--6 {
+  background-color: red;
+}
