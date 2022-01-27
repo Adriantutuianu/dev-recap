@@ -91,6 +91,8 @@ const personsOlder = persons.filter((persons) => persons.age > 25);
 console.log(personsOlder);
 
 //loop through persons array and find the one with the name: adrian
+const personName = persons.find((person) => person.name == "Adrian");
+console.log(personName);
 
 // create a function called findOldest that will take an array as argument. This function will loop through array and return the oldest item.
 // (Note: all arrays items will be objects and have a key called age).
