@@ -42,7 +42,7 @@ console.log(listFilter);
 // (name(string),surname(string),age(number), chlidren(number),childrensName(array of strings))
 let persons = [
   {
-    name: "John",
+    name: "Adrian",
     surname: "Smith",
     age: 40,
     children: 4,
@@ -79,7 +79,13 @@ let persons = [
 ];
 console.log(persons);
 //loop through persons array and find the youngest person
+const youngestPerson = persons.sort(function (a, b) {
+  return a.age - b.age;
+})[0];
+console.log(youngestPerson.age);
 
+const youngestPerson2 = persons.sort((a, b) => a.age - b.age); // same but with arrow function.
+console.log(youngestPerson2[0].age);
 //loop through the persons array and filter the persons which are older then 25 years.
 const personsOlder = persons.filter((persons) => persons.age > 25);
 console.log(personsOlder);
