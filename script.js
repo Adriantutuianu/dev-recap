@@ -40,7 +40,44 @@ console.log(listFilter);
 
 // create and array of objects called persons which will contain 5 persons details
 // (name(string),surname(string),age(number), chlidren(number),childrensName(array of strings))
-
+let persons = [
+  {
+    name: "John",
+    surname: "Smith",
+    age: 40,
+    children: 4,
+    childrensName: ["Eduard", "Victor", "Stefan", "Sophia"],
+  },
+  {
+    name: "Eric",
+    surname: "Harris",
+    age: 45,
+    children: 3,
+    childrensName: ["Noah", "Olivia", "Emma"],
+  },
+  {
+    name: "William",
+    surname: "Scott",
+    age: 32,
+    children: 2,
+    childrensName: ["Oliver", "Ava"],
+  },
+  {
+    name: "James",
+    surname: "Nelson",
+    age: 38,
+    children: 3,
+    childrensName: ["Benjamin", "Amelia", "Isabella"],
+  },
+  {
+    name: "Lucas",
+    surname: "Mitchell",
+    age: 29,
+    children: 2,
+    childrensName: ["Henry", "Mia"],
+  },
+];
+console.log(persons);
 //loop through persons array and find the youngest person
 
 //loop through the persons array and filter the persons which are older then 25 years.
