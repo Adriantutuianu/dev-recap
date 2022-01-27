@@ -72,7 +72,7 @@ let persons = [
   {
     name: "Lucas",
     surname: "Mitchell",
-    age: 29,
+    age: 23,
     children: 2,
     childrensName: ["Henry", "Mia"],
   },
@@ -81,6 +81,8 @@ console.log(persons);
 //loop through persons array and find the youngest person
 
 //loop through the persons array and filter the persons which are older then 25 years.
+const personsOlder = persons.filter((persons) => persons.age > 25);
+console.log(personsOlder);
 
 //loop through persons array and find the one with the name: adrian
 
