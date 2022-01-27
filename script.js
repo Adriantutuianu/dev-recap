@@ -34,6 +34,10 @@ list.forEach((item) => {
   }
 });
 
+//filter all items from the list array that have at least 5 characters.
+const listFilter = list.filter((item) => item.length >= 5);
+console.log(listFilter);
+
 // create and array of objects called persons which will contain 5 persons details
 // (name(string),surname(string),age(number), chlidren(number),childrensName(array of strings))
 
