@@ -97,6 +97,13 @@ console.log(personName);
 // create a function called findOldest that will take an array as argument. This function will loop through array and return the oldest item.
 // (Note: all arrays items will be objects and have a key called age).
 // call findOldest function and pass persons array as argument.
+function findOldest(array) {
+  const sortedArray = array.sort(function (a, b) {
+    return b.age - a.age;
+  });
+  return sortedArray[0];
+}
+console.log(findOldest(persons));
 
 // create a function called firstItem that will have an array as argument.
 // This function should return the first item of that array.
