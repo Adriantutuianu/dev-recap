@@ -109,3 +109,8 @@ console.log(findOldest(persons));
 // This function should return the first item of that array.
 // Call firstItem function and pass list array as argument.
 // call firstItem function and pass persons array as arguments.
+const firstItem = (array) => {
+  return array[0];
+};
+console.log(firstItem(list));
+console.log(firstItem(persons));
